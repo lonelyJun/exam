@@ -20,7 +20,7 @@ describe('测试BookDom', () => {
   after(() => {
     mongoose.disconnect()
   })
-  it('测试添加一专辑', done => {
+  <!-- it('测试添加一专辑', done => {
     let newAlumb = {
       album_id: '3751588',
       album_name: '东风破',
@@ -40,7 +40,7 @@ describe('测试BookDom', () => {
       assert(al._id != null)
       done()
     })
-  })
+  }) -->
   it('测试查询所有的专辑', done => {
     AlbumDao.findAllAlbums((err, albums) => {
       assert(albums.length > 0)

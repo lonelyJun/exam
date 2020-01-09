@@ -23,4 +23,4 @@ const deleteAlbumById = (id, callback) => {
   })
 }
 
-module.exports = { addAlumb, findAllAlbums, deleteAlbumById }
+module.exports = { findAllAlbums, deleteAlbumById }
