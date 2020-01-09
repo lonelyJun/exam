@@ -71,7 +71,7 @@ export default {
   },
   data () {
     return {
-      url: "http://localhost:3000/albums",
+      url: "/albums",
       deleteDialogVisable: false,
       addSingerDialogVisible: false,
       willDeleteAlbum: {},
